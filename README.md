@@ -5,13 +5,13 @@ Os empréstimos incobráveis na maioria dos casos referem-se a atrasos no pagame
 
 Neste desafio, desejamos saber de antemão quem é capaz de pagar seus empréstimos e quem não é. O principal objetivo é analisar dados e criar um modelo para descobrir quais clientes são capazes de honrar suas dívidas.
 
-## Metodologia e Desenvolvimento
+## Resumo e Metodologia
 
 Dada a introdução acima, concluímos que este projeto se trata da criação de uma solução capaz de classificar os clientes quanto ao seu perfil de pagamento: o cliente é considerado um bom pagador de dívidas ou não?
 
 O trabalho começa com uma análise exploratória de dados que subsidía as tomadas de decisão no decorrer do projeto. Logo de início vemos que as classes target são desequilibradas em número: a base de dados possui muito mais dados sobre bons pagadores do que dados sobre maus pagadores. Em seguida, vemos que existem várias variáveis categóricas na base de dados e que, também, as estatísticas das variáveis numéricas não possibilitam assertivamente a diferenciação entre as duas classes de clientes. Estes achados indicam que a utilização de modelos baseados em árvores de decisão poderia ser uma boa escolha para este problema.
 
-Em seguida, foi feita a escolha do modelo baseline através da avaliação das métricas precision, recall e f1_score de vários modelos classificadores. O XGBClassifier foi o escolhido dentre todos os outros. Após isto, a performance do algoritmo foi melhorada com a execução de feature engineering e eliminação de preditores menos relevantes. Por fim, um ajuste fino dos hiperparâmetros mostrou que é possível melhor a precisão do modelo em troca da piora do recall, e vice-versa. 
+Em seguida, foi feita a escolha do modelo baseline através da avaliação das métricas precision, recall e f1_score de vários modelos classificadores. O XGBClassifier foi o escolhido dentre todos os outros. Após isto, a performance do algoritmo foi melhorada com a execução de feature engineering e eliminação de preditores menos relevantes. Também foi utilizado um algoritmo de aprendizado não supervisionado, k-means clustering, para identificação de padrões nos dados de treino e atribuição de valores para as classes que continham dados faltantes. Por fim, um ajuste fino dos hiperparâmetros mostrou que é possível melhor a precisão do modelo em troca da piora do recall, e vice-versa. 
 
 ## Resultados e Conclusões
 
