@@ -1,4 +1,7 @@
 # Introdução
+
+![loan_default](https://miro.medium.com/max/847/1*f7m92eei7PE8gFyaCQnXMw.jpeg)
+
 Hoje em dia, fala-se muito da recessão econômica causada pela pandemia de Covid-19. Isso nos lembra a recessão que ocorreu nos EUA em 2009, também conhecida como crise financeira bancária. Acredita-se que a recessão de 2009 poderia ter sido evitada se os bancos tivessem escolhido cuidadosamente seus pagadores de empréstimos.
 
 Os empréstimos incobráveis na maioria dos casos referem-se a atrasos no pagamento ou inadimplência, que são duas das causas mais comuns de perda de receita bancária e até falência. Atualmente, muitos bancos e fintechs investem amplamente em gestão de risco ou avaliação de crédito para obter informações melhores, baseadas em dados, para tomada de decisões no que diz respeito a concessão de empréstimos.
