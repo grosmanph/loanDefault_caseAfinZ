@@ -85,3 +85,10 @@ test_data['probas']  =  [x[0] if x[0] > x[1] else x[1] for x in clf.predict_prob
 
 ## --- gravação do arquivo final
 test_data.to_csv(open('./outputs/final_submissions.csv', 'w'), index=False)
+
+desafio_test = reduce_mem_usage(pd.read_csv('./inputs/desafio_de_credito_test.csv', engine='c'))
+
+desafio_test['default'] = test_data['default']
+desafio_test['probas']  = test_data['probas']
+
+desafio_test.to_csv(open('./outputs/desafio_de_credito_test.csv', 'w'), index=False)
