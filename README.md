@@ -18,9 +18,9 @@ Em seguida, foi feita a escolha do modelo baseline através da avaliação das m
 
 ## Resultados e Conclusões
 
-Considerando as análises e testes anteriores, no momento, entregaria a seguinte solução: a cominação de um modelo de aprendizado não supervisionado para clusterizar os clientes com um modelo classificador que é capaz de classificar os cliente quanto ao perfil de pagamento e suas probabilidades de pagar ou não suas dívidas.
+Considerando as análises e testes anteriores, no momento, entregaria a seguinte solução: a combinação de um modelo de aprendizado não supervisionado para clusterizar os clientes com um modelo classificador que é capaz de classificar os cliente quanto ao perfil de pagamento e suas probabilidades de pagar ou não suas dívidas.
 
-A solução é capaz de identificar cerca de 92% até 97%, a depender das métricas de negócio, dos bons pagadores e possui uma taxa de acerto de 87%. No que diz respeito aos maus pagadores, este produto identifica cerca de 40% dos maus pagadores, e a taxa de acerto pode variar de 42% até 73% a depender dos objetivos da empresa.
+A solução é capaz de identificar cerca de 92% até 97% (recall), a depender das métricas de negócio, dos bons pagadores e possui uma taxa de acerto de 87% (precision). No que diz respeito aos maus pagadores, este produto identifica cerca de 40% dos maus pagadores (recall), e a taxa de acerto pode variar de 42% até 73% (recall) a depender dos objetivos da empresa.
 
 Para escolher corretamente qual conjunto de parâmetros utilizar, precisamos conhecer as respostas para as seguintes pergunta de negócio: o que é mais importante nesta tarefa? Identificar corretamente o maior número possível de bons pagadores ou identificar corretamente o maior número possível de maus pagadores? Ser acertivo na tomada de decisão quanto a classificação do perfil de pagamento? A resposta para estas perguntas pode ser dada pelo time de negócios ou até mesmo pelo cientista de dados, desde que este conheça bem o modelo de negócios com o qual ele trabalha.
 
