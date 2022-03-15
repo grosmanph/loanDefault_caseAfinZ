@@ -32,5 +32,7 @@ Utilizar um método estatistico-computacional para inputação de entradas no co
 
 Utilizar outros algoritmos de regressão para prever os valores faltantes das variáveis numéricas utilizadas no modelo. Em geral, sistemas de AI que utilizam mais de um algoritmo de ML exibem alta performance.
 
+Reavaliar o modelo de acordo com a área sobre a curva ROC.
+
 Definir bem os objetivos de negócio de forma a escolher os conjuntos de modelos e parâmetro mais adequados para entregar um produto de dados que melhor soluciona o problema e cumpre com a sua missão dentro da empresa.
 
